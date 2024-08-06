@@ -1,5 +1,10 @@
 {
     "description": "it works",   
-    "input_method": "powershell"
-   
+    "input_method": "powershell",
+    "parameters": {
+      "action": {
+      "description": "Action to perform",
+      "type": "Enum[install,upgrade,uninstall]"
+    }
+  }
 }
